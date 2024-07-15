@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+body {
+  font-family: "Gabarito", 'sans-serif';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+::selection {
+  background-color: #3838a3;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  width: 1000px;
+  color: #5959a6;
+}
+
+.generate-password {
+  margin-top: 40px;
+}
+
+#password {
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #a4a4da;
+  font-size: 16px;
+}
+
+input:hover,
+select:hover {
+  box-shadow: 0 0 0 1px #706ac8;
+}
+
+button {
+  background-color: #a4a4da;
+  padding: 10px;
+  font-family: "Gabarito", 'sans-serif';
+}
+
+button:hover {
+  background-color: #6f6fc8;
+  cursor: pointer;
+  font-weight: bold;
+}
